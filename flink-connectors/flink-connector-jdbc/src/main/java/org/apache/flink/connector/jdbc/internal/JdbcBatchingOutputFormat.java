@@ -294,7 +294,6 @@ public class JdbcBatchingOutputFormat<In, JdbcIn, JdbcExec extends JdbcBatchStat
 			executionOptionsBuilder.withMaxRetries(maxRetryTimes);
 			return this;
 		}
-
 		/**
 		 * Finalizes the configuration and checks validity.
 		 *
